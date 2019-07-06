@@ -1,0 +1,20 @@
+{
+	"name": "pghnaz",
+	"version": "0.1.0",
+	"description": "The official site of the Pittsburgh District Church of the Nazarene",
+	"main": ".eleventy.js",
+	"dependencies": {},
+	"devDependencies": {
+		"@11ty/eleventy": "^0.8.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pghnaz/pghnaz.org.git"
+	},
+	"author": "Reuben L. Lillie",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/pghnaz/pghnaz.org/issues"
+	},
+	"homepage": "https://github.com/pghnaz/pghnaz.org#readme"
+}
