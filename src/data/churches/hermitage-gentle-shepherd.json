@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Hermitage Gentle Shepherd",
+		"gmcID": "050-0800",
+		"yearOrganized": 1929,
+		"pastor": "Brian Burke",
+		"address": {
+			"street": "3840 Shenango Valley Freeway",
+			"city": "Hermitage",
+			"state": "PA",
+			"zip": "16148"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.44540,
+			41.23301
+		]
+	}
+}

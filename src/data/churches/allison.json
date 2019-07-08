@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Allison",
+		"gmcID": "050-0030",
+		"yearOrganized": 1937,
+		"pastor": "Roger L. Diehl",
+		"address": {
+			"street": "416 Vernon St",
+			"city": "Allison",
+			"state": "PA",
+			"zip": "15413"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.87934,
+			39.98497
+		]
+	}
+}

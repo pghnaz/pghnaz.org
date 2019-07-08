@@ -1,0 +1,29 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Vanderbilt",
+		"gmcID": "050-0910",
+		"yearOrganized": 1935,
+		"pastor": "Glendon A. Wills",
+		"address": {
+			"street": "121 Vanderbilt Rd",
+			"city": "Vanderbilt",
+			"state": "PA",
+			"zip": "15486"
+		},
+		"mailingAddress": {
+			"street": "PO Box 472",
+			"city": "Vanderbilt",
+			"state": "PA",
+			"zip": "15486"
+		},
+		"phone": "(724) 529-2330"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.65922,
+			40.03622
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Waynesburg",
+		"gmcID": "050-0970",
+		"yearOrganized": 1930,
+		"pastor": "John M. Poling",
+		"address": {
+			"street": "115 Deerfield Ln",
+			"city": "Waynesburg",
+			"state": "PA",
+			"zip": "15370"
+		},
+		"phone": "(724) 627-7593",
+		"website": "http://waynesburgnaz.org/",
+		"social": {
+			"facebook": "https://www.facebook.com/WaynesburgNazChurch/"	
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.14194,
+			39.88737
+		]
+	}
+}

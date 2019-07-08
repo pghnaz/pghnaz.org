@@ -1,0 +1,30 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Somerset",
+		"gmcID": "050-0840",
+		"yearOrganized": 1938,
+		"pastor": "Stephen Zirkle",
+		"address": {
+			"street": "382 W Union St",
+			"city": "Somerset",
+			"state": "PA",
+			"zip": "15501"
+		},
+		"mailingAddress": {
+			"street": "PO Box 286",
+			"city": "Somerset",
+			"state": "PA",
+			"zip": "15501"
+		},
+		"phone": "(814) 445-4444",
+		"website": "http://somersetnazarene.org/"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.08539,
+			40.00956
+		]
+	}
+}

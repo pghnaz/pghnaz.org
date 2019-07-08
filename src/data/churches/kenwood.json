@@ -1,0 +1,21 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Kenwood",
+		"gmcID": "050-0625",
+		"yearOrganized": 1959,
+		"address": {
+			"street": "93 Rte 580 Hwy",
+			"city": "Clymer",
+			"state": "PA",
+			"zip": "15728"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-78.94520,
+			40.64754
+		]
+	}
+}

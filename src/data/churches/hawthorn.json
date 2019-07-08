@@ -1,0 +1,33 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Hawthorn",
+		"gmcID": "050-0380",
+		"yearOrganized": 1933,
+		"address": {
+			"street": "1142 Chestnut St",
+			"city": "Hawthorn",
+			"state": "PA",
+			"zip": "16230"
+		},
+		"mailingAddress": {
+			"street": "PO Box 247",
+			"city": "Hawthorn",
+			"state": "PA",
+			"zip": "16230"
+		},
+		"phone": "(814) 365-5424",
+		"website": "http://www.hawthornnazarene.com/",
+		"social": {
+			"facebook": "https://www.facebook.com/groups/1439585079680975/",
+			"youtube": "https://www.youtube.com/channel/UC42Korf7lEgrlOyCifoI2hw"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.27349,
+			41.02142
+		]
+	}
+}

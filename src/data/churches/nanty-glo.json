@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Nanty Glo",
+		"gmcID": "050-0560",
+		"yearOrganized": 1936,
+		"pastor": "Joyce Elaine Boring",
+		"address": {
+			"street": "1108 Lloyd St",
+			"city": "Nanty Glo",
+			"state": "PA",
+			"zip": "15943"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-78.83745,
+			40.46981
+		]
+	}
+}

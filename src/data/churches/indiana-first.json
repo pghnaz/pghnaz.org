@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Indiana First",
+		"gmcID": "050-0414",
+		"yearOrganized": 1983,
+		"pastor": "Andrew Kessell",
+		"address": {
+			"street": "100 N Third St",
+			"city": "Indiana",
+			"state": "PA",
+			"zip": "15701"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.14367,
+			40.62448
+		]
+	}
+}

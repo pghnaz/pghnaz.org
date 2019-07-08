@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Washington First",
+		"gmcID": "050-0940",
+		"yearOrganized": 1923,
+		"pastor": "Martin J. Bausman",
+		"address": {
+			"street": "1336 N Main St",
+			"city": "Washington",
+			"state": "PA",
+			"zip": "15301"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.25104,
+			40.19087
+		]
+	}
+}

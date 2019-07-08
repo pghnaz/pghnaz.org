@@ -1,0 +1,23 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Greenville Lifeway",
+		"gmcID": "050-0360",
+		"yearOrganized": 1939,
+		"pastor": "Lisa Grabb",
+		"address": {
+			"street": "93 Columbia Ave",
+			"city": "Greenville",
+			"state": "PA",
+			"zip": "16125"
+		}
+
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.37777,
+			41.40366
+		]
+	}
+}

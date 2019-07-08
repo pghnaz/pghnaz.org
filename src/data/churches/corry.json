@@ -1,0 +1,21 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Corry",
+		"gmcID": "050-0260",
+		"yearOrganized": 1934,
+		"address": {
+			"street": "246 Marion St",
+			"city": "Corry",
+			"state": "PA",
+			"zip": "16407"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.64920,
+			41.92254
+		]
+	}
+}

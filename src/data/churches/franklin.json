@@ -1,0 +1,23 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Franklin",
+		"gmcID": "050-0330",
+		"yearOrganized": 1944,
+		"pastor": "David M. Smith",
+		"address": {
+			"street": "393 Pone Ln",
+			"city": "Franklin",
+			"state": "PA",
+			"zip": "16323"
+		},
+		"phone": "(814) 437-2593"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.84344,
+			41.36812
+		]
+	}
+}

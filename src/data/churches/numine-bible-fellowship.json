@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "NuMine Bible Fellowship",
+		"gmcID": "050-0004",
+		"yearOrganized": 2009,
+		"pastor": "Justin Lamison",
+		"address": {
+			"street": "1359 Rte 1042",
+			"city": "NuMine",
+			"state": "PA",
+			"zip": "16244"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.28627,
+			40.79682
+		]
+	}
+}

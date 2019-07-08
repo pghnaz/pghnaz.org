@@ -1,0 +1,26 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "New Brighton",
+		"gmcID": "050-0570",
+		"yearOrganized": 1914,
+		"address": {
+			"street": "423 Penn Ave",
+			"city": "New Brighton",
+			"state": "PA",
+			"zip": "15066"
+		},
+		"phone": "(724) 843-7483",
+		"website": "http://newbnaz.com/",
+		"social": {
+			"facebook": "https://www.facebook.com/newbnaz/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.30821,
+			40.74207
+		]
+	}
+}

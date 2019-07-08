@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Beaver Falls College Hill",
+		"gmcID": "050-0060",
+		"yearOrganized": 1942,
+		"pastor": "Joseph Schiren",
+		"address": {
+			"street": "3600 Fourth Ave",
+			"city": "Beaver Falls",
+			"state": "PA",
+			"zip": "15010"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.32407,
+			40.77733
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Norwin",
+		"gmcID": "050-0190",
+		"yearOrganized": 1944,
+		"address": {
+			"street": "110 Clay Pike",
+			"city": "North Huntingdon",
+			"state": "PA",
+			"zip": "15642"
+		},
+		"mailingAddress": {
+			"street": "101 Clay Pike",
+			"city": "North Huntingdon",
+			"state": "PA",
+			"zip": "15642"
+		},
+		"phone": "(724) 864-3301",
+		"website": "http://www.norwinnaz.com/",
+		"social": {
+			"facebook": "https://www.facebook.com/NorwinNaz/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.73851,
+			40.32924
+		]
+	}
+}

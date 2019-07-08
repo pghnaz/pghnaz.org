@@ -1,0 +1,33 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Sheakleyville",
+		"gmcID": "050-0812",
+		"yearOrganized": 1983,
+		"pastor": "Lisa Grabb",
+		"address": {
+			"street": "3285 Perry Hwy",
+			"city": "Sheakleyville",
+			"state": "PA",
+			"zip": "16151"
+		},
+		"mailingAddress": {
+			"street": "PO Box 175",
+			"city": "Sheakleyville",
+			"state": "PA",
+			"zip": "16151"
+		},
+		"phone": "(724) 253-3852",
+		"website": "http://sheakleyvillenaz.webs.com/",
+		"social": {
+			"facebook": "https://www.facebook.com/Sheakleynaz/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.20723,
+			41.44646
+		]
+	}
+}

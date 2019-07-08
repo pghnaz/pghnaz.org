@@ -1,0 +1,25 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Sharpsville",
+		"gmcID": "050-0810",
+		"yearOrganized": 1939,
+		"pastor": "Leonard J. Powell",
+		"address": {
+			"street": "804 W Ridge Ave",
+			"city": "Sharpsville",
+			"state": "PA",
+			"zip": "16150"
+		},
+		"social": {
+			"facebook": "https://www.facebook.com/groups/305881456281451/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.48498,
+			41.26015
+		]
+	}
+}

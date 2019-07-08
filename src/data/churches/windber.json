@@ -1,0 +1,26 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Windber",
+		"gmcID": "050-0770",
+		"yearOrganized": 1950,
+		"pastor": "Arlene P. Norris",
+		"address": {
+			"street": "811 Graham Ave",
+			"city": "Windber",
+			"state": "PA",
+			"zip": "15963"
+		},
+		"phone": "(814) 467-4444",
+		"social": {
+			"facebook": "https://www.facebook.com/groups/500339650013528/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-78.836361,
+			40.23981
+		]
+	}
+}

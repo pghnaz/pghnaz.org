@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Uniontown",
+		"gmcID": "050-0902",
+		"yearOrganized": 1987,
+		"pastor": "Michael Lyons",
+		"address": {
+			"street": "8 Jeffreys Ln",
+			"city": "Uniontown",
+			"state": "PA",
+			"zip": "15401"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.74421,
+			39.85758
+		]
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Sligo",
+		"gmcID": "050-0820",
+		"yearOrganized": 1926,
+		"pastor": "Eugene A. Hill",
+		"address": {
+			"street": "313 Madison St",
+			"city": "Sligo",
+			"state": "PA",
+			"zip": "16255"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.49103,
+			41.10815
+		]
+	}
+}

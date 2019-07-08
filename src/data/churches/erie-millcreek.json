@@ -1,0 +1,29 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Erie Millcreek",
+		"gmcID": "050-0313",
+		"yearOrganized": 1983,
+		"pastor": "Zachary R. Hatch",
+		"address": {
+			"street": "5353 Helen St",
+			"city": "Erie",
+			"state": "PA",
+			"zip": "16505"
+		},
+		"mailingAddress": {
+			"street": "7225 Footmill Rd",
+			"city": "Erie",
+			"state": "PA",
+			"zip": "16509"
+		},
+		"website": "http://millcreeknazarene.church/"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.20143,
+			42.07459
+		]
+	}
+}

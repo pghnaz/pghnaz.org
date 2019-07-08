@@ -1,0 +1,26 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Washington Hart Avenue",
+		"gmcID": "050-0950",
+		"yearOrganized": 1951,
+		"pastor": "Kerry Purnell",
+		"address": {
+			"street": "205 Hart Ave",
+			"city": "Washington",
+			"state": "PA",
+			"zip": "15301"
+		},
+		"phone": "(724) 223-2022",
+		"social": {
+			"facebook": "https://www.facebook.com/hartavenuechurchofthenazarene/"	
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.26551,
+			40.17017
+		]
+	}
+}

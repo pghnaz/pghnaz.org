@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Waterford",
+		"gmcID": "050-0960",
+		"yearOrganized": 1932,
+		"pastor": "Gregory J. Jack",
+		"address": {
+			"street": "128 Cherry St",
+			"city": "Waterford",
+			"state": "PA",
+			"zip": "16441"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.98223,
+			41.94167
+		]
+	}
+}

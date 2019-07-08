@@ -1,0 +1,32 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Deer Lakes Community",
+		"gmcID": "050-0280",
+		"yearOrganized": 1940,
+		"pastor": "Richard E. Wise",
+		"address": {
+			"street": "1839 Saxonburg Blvd",
+			"city": "Tarentum",
+			"state": "PA",
+			"zip": "15084"
+		},
+		"mailingAddress": {
+			"street": "PO Box 62",
+			"city": "Curtisville",
+			"state": "PA",
+			"zip": "15032"
+		},
+		"phone": "(724) 265-4850",
+		"social": {
+			"facebook": "https://www.facebook.com/Deer-Lakes-Community-Church-of-the-Nazarene-120398491346618/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.85029,
+			40.63662
+		]
+	}
+}

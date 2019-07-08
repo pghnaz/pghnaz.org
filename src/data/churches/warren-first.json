@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Warren First",
+		"gmcID": "050-0930",
+		"yearOrganized": 1908,
+		"pastor": "Jason Maier",
+		"address": {
+			"street": "907 Pennsylvania Ave E",
+			"city": "Warren",
+			"state": "PA",
+			"zip": "16365"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.13207,
+			41.83881
+		]
+	}
+}

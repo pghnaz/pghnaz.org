@@ -1,0 +1,23 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Grove City",
+		"gmcID": "050-0370",
+		"yearOrganized": 1936,
+		"pastor": "Susan E. Kuehne",
+		"address": {
+			"street": "520 N Center St",
+			"city": "Grove City",
+			"state": "PA",
+			"zip": "16127"
+		}
+
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.08343,
+			41.16771
+		]
+	}
+}

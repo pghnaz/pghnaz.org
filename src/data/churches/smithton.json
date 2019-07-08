@@ -1,0 +1,27 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Smithton",
+		"gmcID": "050-0830",
+		"yearOrganized": 1943,
+		"pastor": "Michael R. Beckley",
+		"address": {
+			"street": "157 Fitz Henry Rd",
+			"city": "Smithton",
+			"state": "PA",
+			"zip": "15479"
+		},
+		"phone": "(724) 872-5058",
+		"website": "http://www.smithtonnaz.org/",
+		"social": {
+			"facebook": "https://www.facebook.com/Smithton-Church-of-the-Nazarene-180142568705777/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.73536,
+			40.17136
+		]
+	}
+}

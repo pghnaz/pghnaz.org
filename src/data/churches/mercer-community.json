@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Mercer Community",
+		"gmcID": "050-0510",
+		"yearOrganized": 1938,
+		"pastor": "Dana L. Crocker",
+		"address": {
+			"street": "8385 Lamor Rd",
+			"city": "Meadville",
+			"state": "PA",
+			"zip": "16127"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.25104,
+			41.23071
+		]
+	}
+}
