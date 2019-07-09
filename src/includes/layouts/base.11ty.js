@@ -25,11 +25,14 @@ module.exports = function (data) {
 		</head>
 		<body>
 			<header id="site_header">
-				<h1>${data.site.title}</h1>
+				${data.page.url === '/'
+					? `<h1>${data.site.title}</h1>`
+					: `<a href="/"><h1>${data.site.title}</h1></a>`
+				}
 			</header>
 			${data.content}
 			<footer id="site_footer">
-				<p>&copy; ${data.site.copyright.year} by ${data.site.copyright.owner}</p>
+				<p><a href="/copyright/">Copyright</a> &copy; ${data.site.copyright.year} by ${data.site.copyright.owner}</p>
 			</footer>
 		</body>
 	</html>
