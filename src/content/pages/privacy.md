@@ -2,7 +2,7 @@
 title: Privacy Policy
 ---
 
-This privacy policy applies to all information collected through https://pghnaz.org/ and any of its subdomains.
+This policy applies to all information collected through https://pghnaz.org/ and any of its subdomains.
 
 ## What information do we collect?
 
