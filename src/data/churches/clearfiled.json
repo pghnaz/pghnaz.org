@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Clearfield",
+		"gmcID": "050-0210",
+		"yearOrganized": 1952,
+		"pastor": "Veronica Deglman",
+		"address": {
+			"street": "401 Ogden Ave",
+			"city": "Clearfield",
+			"state": "PA",
+			"zip": "16830"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-78.43725,
+			41.01432
+		]
+	}
+}

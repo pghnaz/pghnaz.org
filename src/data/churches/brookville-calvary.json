@@ -1,0 +1,26 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Brookville Calvary",
+		"gmcID": "050-0120",
+		"yearOrganized": 1951,
+		"pastor": "Ron L. Biddle",
+		"address": {
+			"street": "110 Evans St",
+			"city": "Brookville",
+			"state": "PA",
+			"zip": "15825"
+		},
+		"phone": "(814) 849-5484",
+		"social": {
+			"facebook": "https://www.facebook.com/Brookville-Calvary-Church-of-the-Nazarene-317239611624956/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.06470,
+			41.15717
+		]
+	}
+}

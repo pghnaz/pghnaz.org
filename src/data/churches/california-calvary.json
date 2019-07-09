@@ -1,0 +1,27 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "California Calvary",
+		"gmcID": "050-0160",
+		"yearOrganized": 1920,
+		"pastor": "Rodney A. Johnson",
+		"address": {
+			"street": "73 Promised Land Dr",
+			"city": "Coal Center",
+			"state": "PA",
+			"zip": "15423"
+		},
+		"phone": "(724) 938-2589",
+		"website": "http://californiacalvarynaz.org/",
+		"social": {
+			"facebook": "https://www.facebook.com/California-Calvary-Church-of-the-Nazarene-240778613136498/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.90899,
+			40.05962
+		]
+	}
+}

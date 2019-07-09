@@ -1,0 +1,27 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Bradford First",
+		"gmcID": "050-0110",
+		"yearOrganized": 1904,
+		"pastor": "Joshua A. Haney",
+		"address": {
+			"street": "55 N Bennett St",
+			"city": "Bradford",
+			"state": "PA",
+			"zip": "16701"
+		},
+		"phone": "(814) 368-8129",
+		"website": "https://www.bradfordnaz.com/",
+		"social": {
+			"facebook": "https://www.facebook.com/bradfordnaz/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-78.65833,
+			41.95760
+		]
+	}
+}

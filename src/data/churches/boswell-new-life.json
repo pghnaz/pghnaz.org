@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Boswell",
+		"gmcID": "050-0100",
+		"yearOrganized": 1945,
+		"pastor": "Nathan P. Zipfel",
+		"address": {
+			"street": "878 Main St",
+			"city": "Boswell",
+			"state": "PA",
+			"zip": "15531"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.02092,
+			40.15241
+		]
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Gilson Ridge",
+		"gmcID": "050-0005",
+		"yearOrganized": 2011,
+		"pastor": "Chad Kaminski",
+		"address": {
+			"street": "43289 Gilson Ridge Rd",
+			"city": "Titusville",
+			"state": "PA",
+			"zip": "16354"
+		},
+		"phone": "(814) 827-2919"
+
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.70723,
+			41.69510
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Ebensburg Lakeside Community",
+		"gmcID": "050-0300",
+		"yearOrganized": 1940,
+		"pastor": "Rob Osborn",
+		"address": {
+			"street": "1006 Rowena Dr",
+			"city": "Ebensburg",
+			"state": "PA",
+			"zip": "15931"
+		},
+		"phone": "(814) 472-4672",
+		"social": {
+			"facebook": "https://www.facebook.com/pages/Lakeside-Community-Church-of-The-Nazarene/116569091705071/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-78.71246,
+			40.48180
+		]
+	}
+}

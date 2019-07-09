@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Monongahela",
+		"gmcID": "050-0550",
+		"yearOrganized": 1923,
+		"pastor": "Raymond C. DiCamillo",
+		"address": {
+			"street": "206 Tenth St",
+			"city": "Monongahela",
+			"state": "PA",
+			"zip": "15063"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.93477,
+			40.20577
+		]
+	}
+}

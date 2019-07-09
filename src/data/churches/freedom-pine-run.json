@@ -1,0 +1,26 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Freedom Pine Run",
+		"gmcID": "050-0340",
+		"yearOrganized": 1942,
+		"pastor": "David J. Moore",
+		"address": {
+			"street": "1475 Harvey Run Rd",
+			"city": "Freedom",
+			"state": "PA",
+			"zip": "15402"
+		},
+		"phone": "(724) 774-2764",
+		"social": {
+			"facebook": "https://www.facebook.com/freedomnazpa/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.23784,
+			40.68359
+		]
+	}
+}

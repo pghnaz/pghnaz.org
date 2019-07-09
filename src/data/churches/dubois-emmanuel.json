@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "DuBois Emmanuel",
+		"gmcID": "050-0290",
+		"yearOrganized": 1928,
+		"pastor": "Greg Niver",
+		"address": {
+			"street": "569 Forsyth",
+			"city": "DuBois",
+			"state": "PA",
+			"zip": "15801"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-78.71633,
+			41.10390
+		]
+	}
+}

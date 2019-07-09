@@ -1,0 +1,34 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Erie First",
+		"gmcID": "050-0310",
+		"yearOrganized": 1938,
+		"pastor": "John H. Shank",
+		"address": {
+			"street": "5426 Cider Mill Rd",
+			"city": "Erie",
+			"state": "PA",
+			"zip": "16509"
+		},
+		"mailingAddress": {
+			"street": "1008 E Gore Rd",
+			"city": "Erie",
+			"state": "PA",
+			"zip": "16504"
+		},
+		"phone": "(814) 824-6418",
+		"social": {
+			"facebook": "https://www.facebook.com/erienazarene/",
+			"twitter": "https://twitter.com/erienazarene/",
+			"youtube": "https://www.youtube.com/user/ErieNazarene/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.02533,
+			42.09598
+		]
+	}
+}

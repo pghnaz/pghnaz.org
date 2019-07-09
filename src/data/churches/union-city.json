@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Union City",
+		"gmcID": "050-0890",
+		"yearOrganized": 1942,
+		"pastor": "George H. Tutor",
+		"address": {
+			"street": "119 S Main St",
+			"city": "Union City",
+			"state": "PA",
+			"zip": "16438"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.84832,
+			41.89218
+		]
+	}
+}

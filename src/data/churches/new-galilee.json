@@ -1,0 +1,27 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "New Galilee",
+		"gmcID": "050-0600",
+		"yearOrganized": 1906,
+		"pastor": "Andy Russell",
+		"address": {
+			"street": "505 Washington Ave",
+			"city": "New Galilee",
+			"state": "PA",
+			"zip": "16141"
+		},
+		"phone": "(724) 843-7483",
+		"website": "http://newbnaz.com/",
+		"social": {
+			"facebook": "https://www.facebook.com/newbnaz/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.39946,
+			40.83317
+		]
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Abundant Love",
+		"gmcID": "050-0410",
+		"yearOrganized": 1953,
+		"pastor": "Angela Kress",
+		"address": {
+			"street": "1476 Route 18",
+			"city": "Burgettstown",
+			"state": "PA",
+			"zip": "15021"
+		},
+		"mailingAddress": {
+			"street": "184 Kings Creek Rd",
+			"city": "Georgetown",
+			"state": "PA",
+			"zip": "15043"
+		},
+		"phone": "(814) 756-4741",
+		"website": "https://abundantlovecotn.wordpress.com/",
+		"social": {
+			"facebook": "https://www.facebook.com/imperialcotn/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.44189,
+			40.47565
+		]
+	}
+}

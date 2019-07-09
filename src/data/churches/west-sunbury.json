@@ -1,0 +1,23 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "West Sunbury",
+		"gmcID": "050-0200",
+		"yearOrganized": 1910,
+		"pastor": "Tim Britton",
+		"address": {
+			"street": "544 Hallston Rd",
+			"city": "West Sunbury",
+			"state": "PA",
+			"zip": "16061"
+		},
+		"phone": "(724) 476-1155"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.94782,
+			41.01858
+		]
+	}
+}

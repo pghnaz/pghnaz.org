@@ -1,0 +1,28 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Albion Wesleyan",
+		"gmcID": "050-0010",
+		"yearOrganized": 1947,
+		"pastor": "Wayne C. Hennen",
+		"address": {
+			"street": "9578 US Rt 6NW",
+			"city": "Albion",
+			"state": "PA",
+			"zip": "16401"
+		},
+		"phone": "(814) 756-4741",
+		"website": "http://www.albionnazarene.org/",
+		"social": {
+			"facebook": "https://www.facebook.com/groups/AlbionNaz/",
+			"youtube": "https://www.youtube.com/channel/UCMxerCxiU2_1WeJm8VeyoBA"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.43960,
+			41.89191
+		]
+	}
+}

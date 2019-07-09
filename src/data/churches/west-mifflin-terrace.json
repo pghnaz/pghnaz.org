@@ -1,0 +1,27 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "West Mifflin Terrace",
+		"gmcID": "050-0710",
+		"yearOrganized": 1909,
+		"pastor": "Peter S. Roy",
+		"address": {
+			"street": "1815 Worton Blvd",
+			"city": "West Mifflin",
+			"state": "PA",
+			"zip": "15122"
+		},
+		"phone": "(412) 346-0228",
+		"website": "http://terracenaz.faithweb.com/",
+		"social": {
+			"facebook": "https://www.facebook.com/nazarenechurch.terrace/"	
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.86945,
+			40.36550
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Riceville",
+		"gmcID": "050-0750",
+		"yearOrganized": 1930,
+		"pastor": "Robin K. Sterling, Lay Minister",
+		"address": {
+			"street": "37464 Riceville Rd",
+			"city": "Centerville",
+			"state": "PA",
+			"zip": "16404"
+		},
+		"phone": "(412) 462-2524",
+		"website": "http://lpnaz.org/",
+		"social": {
+			"facebook": "https://www.facebook.com/LPNaz/",
+			"youtube": "https://www.youtube.com/channel/UC1WRr1PjT9u3d36KVUndehg"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.91435,
+			40.36743
+		]
+	}
+}

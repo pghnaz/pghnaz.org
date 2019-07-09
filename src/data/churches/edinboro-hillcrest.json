@@ -1,0 +1,26 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Edinboro Hillcrest",
+		"gmcID": "050-0299",
+		"yearOrganized": 1972,
+		"pastor": "Samanta N. Vannoy",
+		"address": {
+			"street": "12921 Dundon Rd",
+			"city": "Edinboro",
+			"state": "PA",
+			"zip": "16412"
+		},
+		"phone": "(814) 734-1108",
+		"social": {
+			"facebook": "https://www.facebook.com/hillcrestedinboro/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.11022,
+			41.88210
+		]
+	}
+}

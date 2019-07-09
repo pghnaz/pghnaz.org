@@ -1,0 +1,32 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Atlasburg",
+		"gmcID": "050-0050",
+		"yearOrganized": 1945,
+		"pastor": "Angela Kress",
+		"address": {
+			"street": "46 Main St",
+			"city": "Atlasburg",
+			"state": "PA",
+			"zip": "15004"
+		},
+		"mailingAddress": {
+			"street": "PO Box 325",
+			"city": "Atlasburg",
+			"state": "PA",
+			"zip": "15004"
+		},
+		"website": "http://www.albionnazarene.org/",
+		"social": {
+			"facebook": "https://facebook.com/AtlasburgChurchofTheNazarene/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.38210,
+			40.34228
+		]
+	}
+}

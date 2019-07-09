@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Kossuth Faith",
+		"gmcID": "050-0480",
+		"yearOrganized": 1946,
+		"pastor": "Robert D. Thomas",
+		"address": {
+			"street": "2695 Rte 322",
+			"city": "Cranberry",
+			"state": "PA",
+			"zip": "16319"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.71649,
+			41.35321
+		]
+	}
+}

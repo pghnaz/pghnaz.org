@@ -1,0 +1,28 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Pittsburgh Lincoln Place",
+		"gmcID": "050-0680",
+		"yearOrganized": 1898,
+		"pastor": "W. Joseph Stump",
+		"address": {
+			"street": "5604 Interboro Ave",
+			"city": "Pittsburgh",
+			"state": "PA",
+			"zip": "15207"
+		},
+		"phone": "(412) 462-2524",
+		"website": "http://lpnaz.org/",
+		"social": {
+			"facebook": "https://www.facebook.com/LPNaz/",
+			"youtube": "https://www.youtube.com/channel/UC1WRr1PjT9u3d36KVUndehg"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.91435,
+			40.36743
+		]
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Philipsburg",
+		"gmcID": "050-0630",
+		"yearOrganized": 1932,
+		"pastor": "John Versaw",
+		"address": {
+			"street": "3435 Philipsburg Bigler Hwy",
+			"city": "Philipsburg",
+			"state": "PA",
+			"zip": "16866"
+		},
+		"mailingAddress": {
+			"street": "PO Box 726",
+			"city": "Philipsburg",
+			"state": "PA",
+			"zip": "16866"
+		},
+		"phone": "(814) 342-3364",
+		"website": "http://philipsburgnaz.org/",
+		"social": {
+			"facebook": "https://www.facebook.com/philipsburgnaz"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.51013,
+			40.40232
+		]
+	}
+}

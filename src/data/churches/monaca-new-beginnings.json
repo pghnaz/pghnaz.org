@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Monana New Beginnings",
+		"gmcID": "050-0540",
+		"yearOrganized": 2011,
+		"pastor": "Adam Johnson",
+		"address": {
+			"street": "899 Jackson Ave",
+			"city": "Monaca",
+			"state": "PA",
+			"zip": "15061"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.26411,
+			40.67574
+		]
+	}
+}

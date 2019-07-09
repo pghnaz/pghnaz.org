@@ -1,0 +1,26 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Paris",
+		"gmcID": "050-0622",
+		"yearOrganized": 1961,
+		"pastor": "Joseph M. Ryan",
+		"address": {
+			"street": "9 Long St",
+			"city": "Burgettstown",
+			"state": "PA",
+			"zip": "15021"
+		},
+		"phone": "(724) 729-3222",
+		"social": {
+			"facebook": "https://www.facebook.com/groups/1391759734374872/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.51013,
+			40.40232
+		]
+	}
+}

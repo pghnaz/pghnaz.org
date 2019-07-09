@@ -1,0 +1,26 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Ridgway",
+		"gmcID": "050-0760",
+		"yearOrganized": 1950,
+		"pastor": "Joseph L. Miller, Jr.",
+		"address": {
+			"street": "23 Metoxet St",
+			"city": "Ridgway",
+			"state": "PA",
+			"zip": "15853"
+		},
+		"phone": "(814) 776-6323",
+		"social": {
+			"facebook": "https://www.facebook.com/pages/Ridgway-Church-of-The-Nazarene/121007871246580/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-78.73187,
+			41.41774
+		]
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Confluence",
+		"gmcID": "050-0240",
+		"yearOrganized": 1938,
+		"address": {
+			"street": "450 Sterner St",
+			"city": "Confluence",
+			"state": "PA",
+			"zip": "15424"
+		},
+		"phone": "(814) 395-3639"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.36272,
+			39.81170
+		]
+	}
+}

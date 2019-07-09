@@ -1,0 +1,24 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Homer City",
+		"gmcID": "050-0400",
+		"yearOrganized": 1930,
+		"pastor": "Charles E. Lockard",
+		"address": {
+			"street": "3513 US Hwy 199 S",
+			"city": "Homer City",
+			"state": "PA",
+			"zip": "15748"
+		},
+		"phone": "(724) 479-9640",
+		"website": "http://www.hcnazarene.org/"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.15596,		
+			40.53663
+		]
+	}
+}

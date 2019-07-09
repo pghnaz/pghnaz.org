@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Kittanning",
+		"gmcID": "050-0470",
+		"yearOrganized": 1938,
+		"pastor": "Justin Lamison",
+		"address": {
+			"street": "Montieth St and Wilson Ave",
+			"city": "Kittanning",
+			"state": "PA",
+			"zip": "16201"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.52509,
+			40.82779
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Oil City",
+		"gmcID": "050-0620",
+		"yearOrganized": 1910,
+		"address": {
+			"street": "601 E Second St",
+			"city": "Oil City",
+			"state": "PA",
+			"zip": "16301"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.70491,
+			41.42637
+		]
+	}
+}

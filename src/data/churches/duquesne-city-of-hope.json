@@ -1,0 +1,23 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Duquesne City of Hope",
+		"gmcID": "050-0676",
+		"yearOrganized": 1989,
+		"pastor": "Darrell Robinson Sr., Lay Minister",
+		"address": {
+			"street": "119 S 5th St",
+			"city": "Duquesne",
+			"state": "PA",
+			"zip": "15110"
+		},
+		"phone": "(412) 327-3865"
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.84904,
+			40.37058
+		]
+	}
+}

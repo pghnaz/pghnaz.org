@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Meadville First",
+		"gmcID": "050-0500",
+		"yearOrganized": 1935,
+		"pastor": "Jason Barnett",
+		"address": {
+			"street": "851 Washington St",
+			"city": "Meadville",
+			"state": "PA",
+			"zip": "16335"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.13052,
+			41.63813
+		]
+	}
+}

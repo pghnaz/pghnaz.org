@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Belle Vernon",
+		"gmcID": "050-0080",
+		"yearOrganized": 1936,
+		"pastor": "Patti Smith, Lay Minister",
+		"address": {
+			"street": "108 Reed Ave",
+			"city": "Belle Vernon",
+			"state": "PA",
+			"zip": "15012"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.85421,
+			40.13056		
+		]
+	}
+}

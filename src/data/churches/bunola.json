@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Bunola",
+		"gmcID": "050-0140",
+		"yearOrganized": 1914,
+		"pastor": "Ronald L. Doran",
+		"address": {
+			"street": "388 Bunola River Rd",
+			"city": "Bunola",
+			"state": "PA",
+			"zip": "15020"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.94751,
+			40.23818
+		]
+	}
+}

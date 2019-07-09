@@ -1,0 +1,26 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Beacon of Hope Community",
+		"gmcID": "050-0250",
+		"yearOrganized": 1935,
+		"pastor": "Gregory S. Kasler",
+		"address": {
+			"street": "386 Shafer Rd",
+			"city": "Moon Township",
+			"state": "PA",
+			"zip": "15108"
+		},
+		"phone": "(412) 264-4582",
+		"social": {
+			"facebook": "https://www.facebook.com/Coraopolisnazarene/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.20472,
+			40.54217
+		]
+	}
+}

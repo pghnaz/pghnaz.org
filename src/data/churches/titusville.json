@@ -1,0 +1,26 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Titusville",
+		"gmcID": "050-0880",
+		"yearOrganized": 1949,
+		"pastor": "Chad Kaminski",
+		"address": {
+			"street": "213 E Bloss St",
+			"city": "Titusville",
+			"state": "PA",
+			"zip": "16354"
+		},
+		"website": "http://www.tvillenazarene.com/",
+		"social": {
+			"facebook": "https://www.facebook.com/tvillenaz/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.67018,
+			41.62177
+		]
+	}
+}

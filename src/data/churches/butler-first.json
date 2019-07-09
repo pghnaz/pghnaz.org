@@ -1,0 +1,22 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Butler First",
+		"gmcID": "050-0150",
+		"yearOrganized": 1923,
+		"pastor": "Leon E. Blaise",
+		"address": {
+			"street": "4410 Oakdale Rd",
+			"city": "Butler",
+			"state": "PA",
+			"zip": "16001"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-79.95781,
+			40.86549
+		]
+	}
+}

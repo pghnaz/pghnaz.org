@@ -1,0 +1,28 @@
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Bethel Park South Hills",
+		"gmcID": "050-0085",
+		"yearOrganized": 1962,
+		"pastor": "Ryan Baird",
+		"address": {
+			"street": "5601 Library Rd",
+			"city": "Bethel Park",
+			"state": "PA",
+			"zip": "15102"
+		},
+		"phone": "(412) 831-6333",
+		"website": "http://shcn.org/",
+		"social": {
+			"instragram": "https://www.instagram.com/shcnaz/",
+			"facebook": "https://www.facebook.com/shcnaz/"
+		}
+	},
+	"geometry": {
+		"type": "Point",
+		"coordinates": [
+			-80.02583,
+			40.31933
+		]
+	}
+}
