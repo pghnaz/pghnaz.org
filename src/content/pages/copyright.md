@@ -8,7 +8,7 @@ The sourcecode for this site is licensed under the [MIT License](https://github.
 
 Unless otherwise noted, all scripture quotations are taken from the _The Holy Bible, New International Version®, NIV®_ Copyright © 1973, 1978, 1984, 2011 by [Biblica, Inc.®](https://www.biblica.com/) Used by permission. All rights reserved worldwide.
 
-The [seal and logo](http://nazarene.org/identity/) of the Church of the Nazarene are registered trademarks of the [Church of the Nazarene, Inc.](http://nazarene.org/) [Use or reproduction thereof](http://nazarene.org/sites/default/files/docs/Communications/Logos/Nazarene_Logo_Usage_Guide.pdf), without the expressed, written consent of the Church of the Nazarene, Inc. is strictly prohibited.
+The [logo, seal, and name “Church of the Nazarene”](http://nazarene.org/identity/) are registered trademarks and the use is supervised by the General Board of the [Church of the Nazarene](http://nazarene.org/). [Used by permission](http://nazarene.org/sites/default/files/docs/Communications/Logos/Nazarene_Logo_Usage_Guide.pdf).
 
 The logo; the name “Pittsburgh District Church of the Nazarene”; and the moniker “PGHNaz” are trademarked by the Pittsburgh District Church of the Nazarene. Please feel free to use our logo for any of the following:
 
