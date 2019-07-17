@@ -8,6 +8,7 @@ var fileToString = require('./src/includes/filters/file-to-string')
 var minifyCSS = require('./src/includes/filters/minify-css')
 var minifyHTML = require('./src/includes/filters/minify-html')
 var siteTagline = require('./src/includes/shortcodes/site-tagline')
+var titleTag = require('./src/includes/shortcodes/title-tag')
 
 /**
  * Expose the configuration to 11ty as a function
@@ -23,6 +24,7 @@ module.exports = function (eleventyConfig) {
 	minifyCSS(eleventyConfig)
 	minifyHTML(eleventyConfig)
 	siteTagline(eleventyConfig)
+	titleTag(eleventyConfig)
 
 	/**
 	 * Copy static assets directly from includes to output
