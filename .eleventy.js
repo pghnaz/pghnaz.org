@@ -5,9 +5,11 @@
 
 // Require local modules
 var fileToString = require('./src/includes/filters/file-to-string')
+var headTag = require('./src/includes/shortcodes/head-tag')
 var minifyCSS = require('./src/includes/filters/minify-css')
 var minifyHTML = require('./src/includes/filters/minify-html')
 var siteTagline = require('./src/includes/shortcodes/site-tagline')
+var socialMeta = require('./src/includes/shortcodes/social-meta')
 var titleTag = require('./src/includes/shortcodes/title-tag')
 
 /**
@@ -21,9 +23,11 @@ module.exports = function (eleventyConfig) {
 
 	// Pass 11ty config argument to local modules
 	fileToString(eleventyConfig)
+	headTag(eleventyConfig)
 	minifyCSS(eleventyConfig)
 	minifyHTML(eleventyConfig)
 	siteTagline(eleventyConfig)
+	socialMeta(eleventyConfig)
 	titleTag(eleventyConfig)
 
 	/**
