@@ -6,6 +6,7 @@
 // Require local modules
 var fileToString = require('./src/includes/filters/file-to-string')
 var minifyCSS = require('./src/includes/filters/minify-css')
+var minifyHTML = require('./src/includes/filters/minify-html')
 
 /**
  * Expose the configuration to 11ty as a function
@@ -19,6 +20,7 @@ module.exports = function (eleventyConfig) {
 	// Pass 11ty config argument to local modules
 	fileToString(eleventyConfig)
 	minifyCSS(eleventyConfig)
+	minifyHTML(eleventyConfig)
 
 	/**
 	 * Copy static assets directly from includes to output

@@ -5,7 +5,9 @@
 	"main": ".eleventy.js",
 	"dependencies": {},
 	"devDependencies": {
-		"@11ty/eleventy": "^0.8.3"
+		"@11ty/eleventy": "^0.8.3",
+		"clean-css": "^4.2.1",
+		"html-minifier": "^4.0.0"
 	},
 	"repository": {
 		"type": "git",
