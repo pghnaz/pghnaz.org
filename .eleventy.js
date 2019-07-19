@@ -6,6 +6,7 @@
 // Require local modules
 var arrayFromObject = require('./src/includes/filters/array-from-object')
 var fileToString = require('./src/includes/filters/file-to-string')
+var favicon = require('./src/includes/shortcodes/favicon')
 var googleMapsAPI = require('./src/includes/shortcodes/google-maps-api')
 var headTag = require('./src/includes/shortcodes/head-tag')
 var minifyCSS = require('./src/includes/filters/minify-css')
@@ -27,6 +28,7 @@ module.exports = function (eleventyConfig) {
 	// Pass 11ty config argument to local modules
 	arrayFromObject(eleventyConfig)
 	fileToString(eleventyConfig)
+	favicon(eleventyConfig)
 	googleMapsAPI(eleventyConfig)
 	headTag(eleventyConfig)
 	minifyCSS(eleventyConfig)
@@ -41,6 +43,7 @@ module.exports = function (eleventyConfig) {
 	 * @see {@link https://www.11ty.io/docs/copy/ 11ty docs}
 	 */
 	eleventyConfig.addPassthroughCopy('src/includes/assets')
+	eleventyConfig.addPassthroughCopy('favicons')
 
 	/**
 	 * Overwrite 11ty’s default configuration options
