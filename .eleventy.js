@@ -4,10 +4,13 @@
  */
 
 // Require local modules
+var arrayFromObject = require('./src/includes/filters/array-from-object')
 var fileToString = require('./src/includes/filters/file-to-string')
+var googleMapsAPI = require('./src/includes/shortcodes/google-maps-api')
 var headTag = require('./src/includes/shortcodes/head-tag')
 var minifyCSS = require('./src/includes/filters/minify-css')
 var minifyHTML = require('./src/includes/filters/minify-html')
+var minifyJS = require('./src/includes/filters/minify-js')
 var siteTagline = require('./src/includes/shortcodes/site-tagline')
 var socialMeta = require('./src/includes/shortcodes/social-meta')
 var titleTag = require('./src/includes/shortcodes/title-tag')
@@ -22,10 +25,13 @@ module.exports = function (eleventyConfig) {
 
 
 	// Pass 11ty config argument to local modules
+	arrayFromObject(eleventyConfig)
 	fileToString(eleventyConfig)
+	googleMapsAPI(eleventyConfig)
 	headTag(eleventyConfig)
 	minifyCSS(eleventyConfig)
 	minifyHTML(eleventyConfig)
+	minifyJS(eleventyConfig)
 	siteTagline(eleventyConfig)
 	socialMeta(eleventyConfig)
 	titleTag(eleventyConfig)
