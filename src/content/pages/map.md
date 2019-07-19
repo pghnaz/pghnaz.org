@@ -1,9 +1,9 @@
 ---
 title: District Map
-layout: 'layouts/district-map'
+layout: layouts/district-map
 ---
 
-Select a marker to interact with our District Map.
+Select a marker to interact with the map.
 
 Use the icon in the upper right corner to toggle fullscreen view.
 
