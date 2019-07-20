@@ -10,5 +10,6 @@
 	"callToAction": {
 		"link": "/directory/",
 		"text": "Find a Church"
-	}
+	},
+	"repository": "https://github.com/pghnaz/pghnaz.org/tree/master/"
 }
