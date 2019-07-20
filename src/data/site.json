@@ -6,5 +6,9 @@
 		"year": "2019",
 		"owner": "Pittsburgh District Church of the Nazarene"
 	},
-	"baseURL": "https://pghnaz.org/"
+	"baseURL": "https://pghnaz.org/",
+	"callToAction": {
+		"link": "/directory/",
+		"text": "Find a Church"
+	}
 }
