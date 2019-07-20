@@ -5,6 +5,7 @@
 
 // Require local modules
 var arrayFromObject = require('./src/includes/filters/array-from-object')
+var callToAction = require('./src/includes/shortcodes/call-to-action')
 var fileToString = require('./src/includes/filters/file-to-string')
 var favicon = require('./src/includes/shortcodes/favicon')
 var googleMapsAPI = require('./src/includes/shortcodes/google-maps-api')
@@ -27,6 +28,7 @@ module.exports = function (eleventyConfig) {
 
 	// Pass 11ty config argument to local modules
 	arrayFromObject(eleventyConfig)
+	callToAction(eleventyConfig)
 	fileToString(eleventyConfig)
 	favicon(eleventyConfig)
 	googleMapsAPI(eleventyConfig)
