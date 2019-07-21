@@ -1,3 +1,6 @@
 [submodule "src/includes"]
 	path = src/includes
 	url = https://github.com/pghnaz/caimhoff.git
+[submodule "src/branding"]
+	path = src/branding
+	url = https://github.com/pghnaz/branding.git
