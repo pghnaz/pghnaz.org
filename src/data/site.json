@@ -17,10 +17,10 @@
 		"black": "#101820",
 		"white": "#fff",
 		"gray": "#a6acaf",
-		"main": "#ffb612",
-		"accentOne": "#c60c30",
-		"accentTwo": "#003087",
-		"accentThree": "#84bbf2",
+		"main": "#101820",
+		"accentOne": "#ffb612",
+		"accentTwo": "#c60c30",
+		"accentThree": "#003087",
 		"neutral": "#cfc493"
 	},
 	"social": {
