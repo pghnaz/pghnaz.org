@@ -22,5 +22,9 @@
 		"accentTwo": "#003087",
 		"accentThree": "#84bbf2",
 		"neutral": "#cfc493"
+	},
+	"social": {
+		"facebook": "https://www.facebook.com/pghnaz/",
+		"messenger": "https://m.me/pghnaz/"
 	}
 }

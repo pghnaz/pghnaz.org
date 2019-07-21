@@ -15,6 +15,7 @@ var minifyCSS = require('./src/includes/filters/minify-css')
 var minifyHTML = require('./src/includes/filters/minify-html')
 var minifyJS = require('./src/includes/filters/minify-js')
 var siteTagline = require('./src/includes/shortcodes/site-tagline')
+var socialLinks = require('./src/includes/shortcodes/social-links')
 var socialMeta = require('./src/includes/shortcodes/social-meta')
 var titleTag = require('./src/includes/shortcodes/title-tag')
 
@@ -39,6 +40,7 @@ module.exports = function (eleventyConfig) {
 	minifyHTML(eleventyConfig)
 	minifyJS(eleventyConfig)
 	siteTagline(eleventyConfig)
+	socialLinks(eleventyConfig)
 	socialMeta(eleventyConfig)
 	titleTag(eleventyConfig)
 
