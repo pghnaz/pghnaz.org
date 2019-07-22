@@ -2,11 +2,11 @@
 title: Terms of Use
 ---
 
-Thank you for visiting our site.
+Thank you for visiting our website.
 
-We want you to enjoy your experience on our site. And we want you to have peace of mind.
+We want you to enjoy your experience on our site, and we want you to have peace of mind.
 
-These terms of use apply our site (https://pghnaz.org/) and any of its subdomains.
+These terms of use apply to our site (https://pghnaz.org/) and any of its subdomains.
 
 ## Privacy and Copyright Protection
 

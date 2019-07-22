@@ -4,7 +4,7 @@ title: Copyright Notice
 
 Unless otherwise noted, content on this site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-The sourcecode for this site is licensed under the [MIT License](https://github.com/pghnaz/pghnaz.org/blob/master/LICENSE) and is freely available on [GitHub](https://github.com/pghnaz/pghnaz.org).
+The sourcecode for this site (https://pghnaz.org/) and its subdomains is licensed under the [MIT License](https://github.com/pghnaz/pghnaz.org/blob/master/LICENSE) and is freely available on [GitHub](https://github.com/pghnaz/).
 
 Unless otherwise noted, all scripture quotations are taken from the _The Holy Bible, New International Version®, NIV®_ Copyright © 1973, 1978, 1984, 2011 by [Biblica, Inc.®](https://www.biblica.com/) Used by permission. All rights reserved worldwide.
 
