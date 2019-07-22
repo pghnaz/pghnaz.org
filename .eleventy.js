@@ -22,7 +22,7 @@ module.exports = function (eleventyConfig) {
 	 * @see {@link https://www.11ty.io/docs/copy/ 11ty docs}
 	 */
 	eleventyConfig.addPassthroughCopy('src/includes/assets')
-	eleventyConfig.addPassthroughCopy('favicons')
+	eleventyConfig.addPassthroughCopy('src/branding/favicons')
 
 	/**
 	 * Overwrite 11ty’s default configuration options
