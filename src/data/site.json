@@ -17,6 +17,7 @@
 		"black": "#101820",
 		"white": "#fff",
 		"gray": "#a6acaf",
+		"lightGray": "#f3f4f4",
 		"main": "#101820",
 		"accentOne": "#ffb612",
 		"accentTwo": "#c60c30",
@@ -26,5 +27,9 @@
 	"social": {
 		"facebook": "https://www.facebook.com/pghnaz/",
 		"messenger": "https://m.me/pghnaz/"
+	},
+	"parentOrganization": {
+		"name": "The International Church of the Nazarene",
+		"logo": "branding/logo-mock-ups/nazarene-logo-wide-text.svg"
 	}
 }
