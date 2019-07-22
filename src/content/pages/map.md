@@ -1,6 +1,6 @@
 ---
 title: District Map
-layout: layouts/district-map
+layout: district-map
 ---
 
 Select a marker to interact with the map.

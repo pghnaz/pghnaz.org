@@ -1,7 +1,7 @@
 module.exports = function () {
 	return {
 		date: 'Last Modified',
-		layout: 'layouts/content',
+		layout: '../includes/layouts/content', // relative to src/layouts/
 		permalink: '/{{page.fileSlug}}/index.html'
 	}
 }

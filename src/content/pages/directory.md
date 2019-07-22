@@ -1,6 +1,6 @@
 ---
 title: Church Directory
-layout: layouts/church-directory
+layout: church-directory
 ---
 
 Check out our interactive [District Map](/map/).

@@ -1,5 +1,5 @@
 module.exports = function () {
 	return {
-		layout: 'layouts/local-church'
+		layout: 'local-church' // relative to src/layouts/
 	}
 }
