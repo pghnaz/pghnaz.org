@@ -28,6 +28,12 @@
 		"facebook": "https://www.facebook.com/pghnaz/",
 		"messenger": "https://m.me/pghnaz/"
 	},
+	"contact": {
+		"email": "rlillie@pghnaz.org",
+		"logo": "branding/logo-mock-ups/pghnaz-logo-flat-color-stacked-text.svg",
+		"address": "177 North Rd, Butler, PA 16001",
+		"phone": "(724) 287-5867"
+	},
 	"parentOrganization": {
 		"name": "The International Church of the Nazarene",
 		"logo": "branding/logo-mock-ups/nazarene-logo-wide-text.svg"
