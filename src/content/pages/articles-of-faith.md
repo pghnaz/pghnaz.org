@@ -2,10 +2,11 @@
 title: Articles of Faith
 ---
 
-Our sixteen Articles of Faith serve as our formal doctrinal affirmations to guide our understanding of the global Christian faith.
+_Our sixteen Articles of Faith serve as our formal doctrinal statements about God, humanity, and the global Christian church._
 
-> NOTE: Constitutional changes adopted by the 2017 General Assembly are in the process of ratification by the district assemblies at the time of printing. Where changes are being made, words in italics are new words and words in brackets [ ] are words being deleted.
+_These articles offer more details about our basic [beliefs](/beliefs/)._
 
+<blockquote class="small"><strong>NOTE:</strong> Constitutional changes adopted by the 2017 General Assembly are in the process of ratification by the district assemblies at the time of printing. Where changes are being made, words in italics are new words and words in brackets [ ] are words being deleted.</blockquote>
 
 ## Article I. The Triune God
 
@@ -159,6 +160,8 @@ Baptism may be administered by sprinkling, pouring, or immersion, according to t
 **16.2.** We believe that glorious and everlasting life is assured to all who savingly believe in, and obediently follow, Jesus Christ our Lord; and that the finally impenitent shall suffer eternally in hell.
 
 > (Genesis 18:25; 1 Samuel 2:10; Psalm 50:6; Isaiah 26:19; Daniel 12:2–3; Matthew 25:31–46; Mark 9:43–48; Luke 16:19–31; 20:27–38; John 3:16–18; 5:25–29; 11:21–27; Acts 17:30–31; Romans 2:1–16; 14:7–12; 1 Corinthians 15:12–58; 2 Corinthians 5:10; 2 Thessalonians 1:5–10; Revelation 20:11–15; 22:1–15)
+
+_Still have questions? [Find a local church near you](/directory/). We’re excited to explore faith together with you._
 
 ## References
 

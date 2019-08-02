@@ -1,8 +1,6 @@
 ---
-title: Agreed Statement of Belief
+title: We Believe
 ---
-
-## We Believe
 
 1. In one God—the Father, Son, and Holy Spirit.
 2. That the Old and New Testament Scriptures, given by plenary inspiration, contain all truth necessary to faith and Christian living.
@@ -13,6 +11,8 @@ title: Agreed Statement of Belief
 7. That the Holy Spirit bears witness to the new birth, and also to the entire sanctification of believers.
 8. That our Lord will return, the dead will be raised, and the final judgment will take place.
 
+_Check out our [Articles of Faith](/articles-of-faith/) for more details about these basic beliefs._
+
 ## References
 
-1. Twenty-ninth General Assembly of the Church of the Nazarene. 2017. “Agreed Statement of Belief.” In Manual of the Church of the Nazarene: 2017–2021, para. 20–20.8. [http://2017.manual.nazarene.org/section/agreed-statement-of-belief/](http://2017.manual.nazarene.org/section/agreed-statement-of-belief/).
+Twenty-ninth General Assembly of the Church of the Nazarene. 2017. “Agreed Statement of Belief.” In _Manual of the Church of the Nazarene: 2017–2021_, para. 20–20.8. [http://2017.manual.nazarene.org/section/agreed-statement-of-belief/](http://2017.manual.nazarene.org/section/agreed-statement-of-belief/).

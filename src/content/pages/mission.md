@@ -2,9 +2,13 @@
 title: Mission
 ---
 
-The mission of the International Church of the Nazarene is “to make Christlike disciples in the nations.”
+The mission of the International Church of the Nazarene is [“to make Christlike disciples in the nations.”](http://nazarene.org/mission/)
 
-These seven words are a combination of Jesus’ instructions in Matthew 28:19–20 to “go and make disciples of all nations” (NIV), often called the Great Commission, and loving others with a holy love like Jesus taught us in Matthew 22:37–40 to “‘Love the Lord your God with all your heart and with all your soul and with all your mind’ and to ‘Love your neighbor as yourself’ (NIV), often called the Greatest Commandment.
+These seven words combine two of Jesus of Nazareth’s most basic teachings.
+
+In Matthew 28:19–20 Jesus instructs us to “go and make disciples of all nations” (often called the Great Commission).
+
+Similarly, in Matthew 22:37–40 and throughout the gospels, Jesus reminds us God’s command in Deuteronomy 6:5 to “‘Love the Lord your God with all your heart and with all your soul and with all your mind’ and to ‘Love your neighbor as yourself’” (often called the Great Commandment).
 
 As a district, we embrace our mission
 

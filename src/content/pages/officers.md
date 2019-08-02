@@ -4,7 +4,10 @@ title: District Officers
 
 ## General Superintendent in Jurisdiction
 
-David Busic
+<picture class="float-left margin-right">
+	<source srcset="/branding/images/david-busic-headshot_300.jpg">
+	<img src="/branding/images/david-busic-headshot.jpg">
+</picture>
 
 Dr. David A. Busic was elected general superintendent in the Church of the Nazarene at the 28th General Assembly held in Indianapolis, Indiana, USA, in June 2013. At the time of his election, he had been president of Nazarene Theological Seminary since 2011.
 
@@ -14,13 +17,11 @@ Dr. Busic received a Bachelor of Arts degree from Southern Nazarene University i
 
 He has a distinguished tradition of service to the denomination. He has been a member of the General Board of the Church of the Nazarene, during which time he was also elected president of the USA National Board. From 2005 to 2013 he was a member of the Board of General Superintendents’ Thought Partners, a think tank for critical issues facing the church.
 
-Busic was co-editor for Preacher’s Magazine from 2000 to 2007. He has also published numerous articles and co-authored two books (A Pastor’s Guide to Effective Preaching and Sharing My Faith). He most recently authored Perfectly Imperfect: Character Sketches from the Old Testament, and Perfectly Imperfect, Character Sketches from the New Testament. His preaching is widely respected throughout the church, making him a sought-after speaker and leadership advisor.
+Busic was co-editor for Preacher’s Magazine from 2000 to 2007. He has also published numerous articles and co-authored two books (_A Pastor’s Guide to Effective Preaching_ and _Sharing My Faith_). He most recently authored Perfectly Imperfect: Character Sketches from the Old Testament, and Perfectly Imperfect, Character Sketches from the New Testament. His preaching is widely respected throughout the church, making him a sought-after speaker and leadership advisor.
 
 Dr. Busic and his wife, Christi, live in Edmond, Oklahoma. They have three grown children and five grandchildren.
 
 ## District Superintendent
-
-Daniel Eddings
 
 The Rev. Daniel Eddings and his wife Deb joined our Pittsburgh District family in July 2017. His official duties as District Superintendent began August 1, 2017.
 
@@ -30,30 +31,20 @@ Dan holds a Bachelor of Arts in Religion from Eastern Nazarene College and is cu
 
 ## District Secretary
 
-Leon E. Blaise
-
-In addition to serving as District Secretary, the Rev. Leon E. Blaise pastors our Butler First church and directs Pittsburgh District Clergy Development.
+The Rev. Leon E. Blaise pastors our [Butler First Church of the Nazarene](/butler-first/) and directs Pittsburgh District Clergy Development.
 
 ## District Treasurer
 
-Laurene Timmons
-
-Laurene is a member of our Norwin church whom she also serves as treasurer.
-
-## District NMI President
-
-Sandy Greenlee
-
-Sandy is a member of our Springboro Conneaut Valley church where she also serves as local NMI president.
-
-## District NYI President
-
-Jason Barnett
-
-The Rev. Jason Barnett is a district licensed minister. In addition to serving as District NYI president, He is also the Lead Pastor at the Meadville Church of the Nazarene.
+Laurene Timmons is a member of our [Norwin Church of the Nazarene](/norwin/) whom she also serves as local church treasurer.
 
 ## District SDMI Chairperson
 
-David Smith
+The Rev. David M. Smith pastors our [Franklin Church of the Nazarene](/franklin/).
 
-In addition to chairing our District Sunday School and Discipleship Ministries International Board, the Rev. David M. Smith pastors our Franklin church.
+## District NMI President
+
+Sandy Greenlee is a member of our [Springboro Conneaut Valley Church of the Nazarene](/springboro-conneaut-valley/) whom she also serves as local church NMI president.
+
+## District NYI President
+
+The Rev. Jason Barnett is a licensed minister pastoring our [Meadville First Church of the Nazarene](/meadville-first/).
