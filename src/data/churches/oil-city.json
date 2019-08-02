@@ -4,6 +4,7 @@
 		"name": "Oil City",
 		"gmcID": "050-0620",
 		"yearOrganized": 1910,
+		"zone": "Central",
 		"address": {
 			"street": "601 E Second St",
 			"city": "Oil City",

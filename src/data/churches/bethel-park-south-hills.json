@@ -4,6 +4,7 @@
 		"name": "Bethel Park South Hills",
 		"gmcID": "050-0085",
 		"yearOrganized": 1962,
+		"zone": "Pittsburgh South",
 		"pastor": "Ryan Baird",
 		"address": {
 			"street": "5601 Library Rd",
@@ -14,7 +15,7 @@
 		"phone": "(412) 831-6333",
 		"website": "http://shcn.org/",
 		"social": {
-			"instragram": "https://www.instagram.com/shcnaz/",
+			"instagram": "https://www.instagram.com/shcnaz/",
 			"facebook": "https://www.facebook.com/shcnaz/"
 		}
 	},
