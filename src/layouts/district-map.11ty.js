@@ -17,7 +17,7 @@ class DistrictMap {
 
 	render(data) {
 		// Create an array from a JavaScript object containing keyed objects
-		var arr =  this.arrayFromObject(data.churches)
+		var churches =  this.arrayFromObject(data.churches)
 
 		// The map template
 		return `
@@ -35,14 +35,15 @@ class DistrictMap {
 							lat: 40.89822,
 							lng: -79.98357
 						},
-						zoom: 7 // wide area, large metropolitan area
+						zoom: 7, // wide area, large metropolitan area
+						styles: ${this.fileToString('branding/data/google-maps-styles.json')}
 					})
 
 					// An array of GeoJSON feature objects
-					var items = ${JSON.stringify(arr)}
+					var churches = ${JSON.stringify(churches)}
 
 					// Add a map marker with an info window when clicked
-					var addMarker = function (item) {
+					var addMarker = function (church) {
 
 						var image = {
 							url: '/includes/assets/images/nazarene-logo-map-marker-red.png',
@@ -54,8 +55,8 @@ class DistrictMap {
 						//Define the map marker properties
 						var marker = new google.maps.Marker({
 							position: {
-								lat: item.geometry.coordinates[1],
-								lng: item.geometry.coordinates[0]
+								lat: church.geometry.coordinates[1],
+								lng: church.geometry.coordinates[0]
 							},
 							map: map,
 							icon: image
@@ -68,36 +69,58 @@ class DistrictMap {
 								.replace(/\\-\\-+/g, '-')
 						}
 
+						// A helper function to format a string for Google Maps
+						var plusify = function (text) {
+							return text.toString().trim()
+								.replace(/\\s+/g, '+')
+								.replace(/\\+\\++/g, '+')
+						}
+
 						// A template to load into a Google Maps info window
 						var infoWindowContent = function () {
 							var html = ''
-							var regex = /\s/g
-							item.properties.name
-								? html += '<h2>' +
+							church.properties.name
+								? html += '<h2 class="medium">' +
 									'<a href="/' +
-										slugify(item.properties.name) +
+										slugify(church.properties.name) +
 									'">' +
-									item.properties.name + '<br>Church of the Nazarene' +
+									church.properties.name + '<br>Church of the Nazarene' +
 									'</a>' +
 								'</h2>'
 								: html += ''
-							item.properties.pastor
-								? html += '<p>Pastor ' + item.properties.pastor + '</p>'
+							church.properties.zone
+								? html += '<span>Zone: <a href="/zones/#' +
+										slugify(church.properties.zone) +
+									'">' +
+									church.properties.zone +
+									'</a></span>'
+								: html += ''
+							church.properties.pastor
+								? html += '<p>Pastor ' + church.properties.pastor + '</p>'
 								: html += '<p>Praying for our next pastor ' + '</p>'
-							item.properties.address
+							church.properties.address
 								? html += '<address>' +
-									item.properties.address.street + '<br>' +
-									item.properties.address.city + ', ' +
-									item.properties.address.state +  ' ' +
-									item.properties.address.zip +
+									church.properties.address.street + '<br>' +
+									church.properties.address.city + ', ' +
+									church.properties.address.state +  ' ' +
+									church.properties.address.zip +
 								'</address>'
 								: ''
-							item.geometry.coordinates
+							church.geometry.coordinates
 								? html += '<p class="small gray">' +
-									item.geometry.coordinates[1] + ', ' +
-									item.geometry.coordinates[0] +
+									'<a href="https://maps.google.com/maps/place/' +
+										plusify(church.properties.name + ' Church of the Nazarene') +
+									'/@' +
+										church.geometry.coordinates[1] + ',' +
+										church.geometry.coordinates[0] + ',19z/">' +
+										'View on Google Maps' +
+									'</a>' +
+									'<br>' +
+									church.geometry.coordinates[1] + ', ' +
+									church.geometry.coordinates[0] +
 								'</p>'
 								: ''
+
 							return html
 						}
 
@@ -113,9 +136,9 @@ class DistrictMap {
 
 					}
 
-					// Add a dynamic marker to the map for each item
-					items.forEach(function (item) {
-						addMarker(item)
+					// Add a dynamic marker to the map for each church
+					churches.forEach(function (church) {
+						addMarker(church)
 					})
 				}`)
 			}

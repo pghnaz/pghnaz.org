@@ -16,62 +16,68 @@ class LocalChurch {
 	}
 
 	render(data) {
-		var item = data.churches[data.page.fileSlug]
-		var id = item.properties.gmcID.substr(4)
+		var church = data.churches[data.page.fileSlug]
+		var id = church.properties.gmcID.substr(4)
+
 		return `
 			<article id="article_${id}">
 				<header>
-					<h1>${item.properties.name} Church of the Nazarene</h1>
+					<h1>${church.properties.name} Church of the Nazarene</h1>
 				</header>
 				<section>
 					<p class="small gray">
-						${item.properties.gmcID
-							? `ID: <span id="churchID_${id}">
-								${item.properties.gmcID}
-							</span>`
-							: ''
-						}</span>
-						${item.properties.yearOrganized
+						${church.properties.yearOrganized
 							? `Organized: <span id="churchYearOrganized_${id}">
-								${item.properties.yearOrganized}
+								${church.properties.yearOrganized}
+							</span><br>`
+							: ''
+						}
+						${church.properties.gmcID
+							? `ID: <span id="churchID_${id}">
+								${church.properties.gmcID}
+							</span><br>`
+							: ''
+						}
+						${church.properties.zone
+							? `Zone: <span id="churchZone_${id}">
+								<a href="/zones/#${this.slugify(church.properties.zone)}">
+									${church.properties.zone}
+								</a>
 							</span>`
 							: ''
 						}
 					</p>
-						${item.properties.address
+						${church.properties.address
 							? `<section class="grid grid-repeat-columns">
 									<address>
-									${item.properties.mailingAddress
+									${church.properties.mailingAddress
 										? `<h1>Physical Address</h1>`
 										: ''
 									}
 									<p>
-										<span>${item.properties.address.street}</span></br>
-										<span id="churchCity_${id}">${item.properties.address.city}</span>,
-										<span>${item.properties.address.state}</span>
-										<span>${item.properties.address.zip}</span>
+										<span>${church.properties.address.street}</span></br>
+										<span id="churchCity_${id}">${church.properties.address.city}</span>,
+										<span>${church.properties.address.state}</span>
+										<span>${church.properties.address.zip}</span>
 
 									</p>
-									${item.properties.phone
+									${church.properties.phone
 										? `<p>
-											<a href="tel:+1${item.properties.phone
-													.toString()
-													.trim()
-													.replace(/[^0-9]/g, '')}">
-												${item.properties.phone}
+											<a href="tel:+1${this.numberfy(church.properties.phone)}">
+												${church.properties.phone}
 											</a>
 										</p>`
 										: ''
 									}
 								</address>
-								${item.properties.mailingAddress
+								${church.properties.mailingAddress
 									? `<address>
 										<h1>Mailing Address</h1>
 										<p>
-											<span>${item.properties.mailingAddress.street}</span></br>
-											<span id="churchCity_${id}">${item.properties.mailingAddress.city}</span>,
-											<span>${item.properties.mailingAddress.state}</span>
-											<span>${item.properties.mailingAddress.zip}</span>
+											<span>${church.properties.mailingAddress.street}</span></br>
+											<span id="churchCity_${id}">${church.properties.mailingAddress.city}</span>,
+											<span>${church.properties.mailingAddress.state}</span>
+											<span>${church.properties.mailingAddress.zip}</span>
 
 										</p>
 									</address>`
@@ -81,21 +87,21 @@ class LocalChurch {
 							: ''
 						}
 					<p>
-						${item.properties.pastor
-							? `Pastor ${item.properties.pastor}`
+						${church.properties.pastor
+							? `Pastor ${church.properties.pastor}`
 							: 'Praying for our next pastor'
 						}
 					</p>
-					${item.properties.website
+					${church.properties.website
 						? `<p>
-							<a href="${item.properties.website}">
-								${item.properties.website}
+							<a href="${church.properties.website}">
+								${church.properties.website}
 							</a>
 						</p>`
 						: ''
 					}
-					${item.properties.social
-						? `${this.socialLinks(item.properties.social)}`
+					${church.properties.social
+						? `${this.socialLinks(church.properties.social)}`
 						: ''
 					}
 					<div id="map"></div>
@@ -109,29 +115,100 @@ class LocalChurch {
 				var initMap = function () {
 				var map = new google.maps.Map(document.getElementById('map'), {
 					center: {
-						lat: ${item.geometry.coordinates[1]},
-						lng: ${item.geometry.coordinates[0]}
+						lat: ${church.geometry.coordinates[1]},
+						lng: ${church.geometry.coordinates[0]}
 					},
 					zoom: 13,
+					styles: ${this.fileToString('branding/data/google-maps-styles.json')}
 				})
 
-					var image = {
-						url: '/includes/assets/images/nazarene-logo-map-marker-red.png',
-						size: new google.maps.Size((35.184), 48),
-						origin: new google.maps.Point (0, 0),
-						anchor: new google.maps.Point (0, 48)
+					// A GeoJSON feature object
+					var church = ${JSON.stringify(church)}
+
+					// Add a map marker with an info window when clicked
+					var addMarker = function (church) {
+
+						var image = {
+							url: '/includes/assets/images/nazarene-logo-map-marker-red.png',
+							size: new google.maps.Size((35.184), 48),
+							origin: new google.maps.Point (0, 0),
+							anchor: new google.maps.Point (0, 48)
+						}
+
+						//Define the map marker properties
+						var marker = new google.maps.Marker({
+							position: {
+								lat: church.geometry.coordinates[1],
+								lng: church.geometry.coordinates[0]
+							},
+							map: map,
+							icon: image
+						})
+
+						// A helper function to format a string like a url
+						var slugify = function (text) {
+							return text.toString().toLowerCase().trim()
+								.replace(/\\s+/g, '-')
+								.replace(/\\-\\-+/g, '-')
+						}
+
+						// A helper function to format a string for Google Maps
+						var plusify = function (text) {
+							return text.toString().trim()
+								.replace(/\\s+/g, '+')
+								.replace(/\\+\\++/g, '+')
+						}
+
+						// A template to load into a Google Maps info window
+						var infoWindowContent = function () {
+							var html = ''
+							church.properties.name
+								? html += '<h2 class="medium">' +
+										church.properties.name + '<br>Church of the Nazarene' +
+								'</h2>'
+								: html += ''
+							church.properties.address
+								? html += '<address>' +
+									church.properties.address.street + '<br>' +
+									church.properties.address.city + ', ' +
+									church.properties.address.state +  ' ' +
+									church.properties.address.zip +
+								'</address>'
+								: ''
+							church.geometry.coordinates
+								? html += '<p class="small gray">' +
+									'<a href="https://maps.google.com/maps/place/' +
+										plusify(church.properties.name + ' Church of the Nazarene') +
+									'/@' +
+										church.geometry.coordinates[1] + ',' +
+										church.geometry.coordinates[0] + ',19z/">' +
+										'View on Google Maps' +
+									'</a>' +
+									'<br>' +
+									church.geometry.coordinates[1] + ', ' +
+									church.geometry.coordinates[0] +
+								'</p>'
+								: ''
+
+							return html
+						}
+
+						// Define the info window properties
+						var infoWindow = new google.maps.InfoWindow({
+							content: infoWindowContent()
+						})
+
+						// Load an info window when a marker is clicked
+						marker.addListener('click', function () {
+							infoWindow.open(map, marker)
+						})
+
 					}
 
-					var marker = new google.maps.Marker({
-						position: {
-							lat: ${item.geometry.coordinates[1]},
-							lng: ${item.geometry.coordinates[0]}
-						},
-						map: map,
-						icon: image
-					})
-				}`)
+					// Add a dynamic marker to the map
+					addMarker(church)
 
+				}`)
 			}
 			</script>
 			${this.googleMapsAPI()}
