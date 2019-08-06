@@ -1,5 +1,6 @@
 ---
 title: Eastern Nazarene College
+layout: enc
 ---
 
 <figure class="float-left margin-right padding-right half-width">
