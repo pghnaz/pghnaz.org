@@ -27,7 +27,7 @@ class OpenChurches {
 
     // Append a card for each local church
 		noPastor.length > 0
-			? churchesWithoutPastor.map(church => html += this.localChurchCard(data, church)).join('')
+			? noPastor.map(church => html += this.localChurchCard(data, church)).join('')
 			: html = `<article>
 				<h2>Praise God with us!</h2>
 				<p>We’re in a season when each of our <a href="/directory/">local churches</a> has a pastor.</p>
