@@ -39,7 +39,7 @@ module.exports = function (data) {
 					<a href="/map/" style="height:50vw;background-image:url('branding/images/district-map-screenshot.png');background-position:center;background-size:cover;"></a>
 					</a>
 					<div class="text-center flex flex-column space-around" style="justify-items:center;position:relative;">
-						<div role="hidden" class="gray" style="z-index: -1;position: absolute;top: -17vmax;font-size: 2.5vmax;text-align: justify;opacity: 0.1;line-height: 1;hyphens: auto;word-break: break-all;">
+						<div role="hidden" class="gray" style="z-index: -1;position: absolute;font-size: 1.5em;text-align: justify;opacity: 0.1;line-height: 0.87;hyphens: auto;word-break: break-all;">
 							${(function () {
 									var shuffle = function (array) {
 										var currentIndex = array.length
