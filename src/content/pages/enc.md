@@ -3,7 +3,7 @@ title: Eastern Nazarene College
 layout: enc
 ---
 
-<figure class="float-left margin-right padding-right half-width">
+<figure class="float-left margin-right padding-right half-width circular">
 	<img alt="Eastern Nazarene College logo" src="/branding/logo-mock-ups/enc-color-logo.svg">
 </figure>
 
