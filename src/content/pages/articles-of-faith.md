@@ -167,4 +167,4 @@ _Still have questions? [Find a local church near you](/directory/). We’re exci
 
 Twenty-ninth General Assembly of the Church of the Nazarene. 2017. “Articles of Faith.” In _Manual of the Church of the Nazarene: 2017–2021_, para. 1–16.2. [http://2017.manual.nazarene.org/section/articles-of-faith](http://2017.manual.nazarene.org/section/articles-of-faith).
 
-Frank M. Moore, ed. 2017. “One Lord, One Faith, One Baptism: Essential Teachings for Faith Formation in the Church of the Nazarene.” Special Issue, _Holiness Today_ 19, no. 4 (July/August). [http://www.nazarene.org/sites/default/files/onelord/docs/en/OneLordEN.pdf](http://www.nazarene.org/sites/default/files/onelord/docs/en/OneLordEN.pdf)
+Frank M. Moore, ed. 2017. “One Lord, One Faith, One Baptism: Essential Teachings for Faith Formation in the Church of the Nazarene.” Special Issue, _Holiness Today_ 19, no. 4 (July/August). [http://www.nazarene.org/sites/default/files/onelord/docs/en/OneLordEN.pdf](http://www.nazarene.org/sites/default/files/onelord/docs/en/OneLordEN.pdf).
