@@ -4,9 +4,9 @@ title: District Officers
 
 ## General Superintendent in Jurisdiction
 
-<picture class="float-left margin-right">
+<picture class="float-left margin-right circular">
 	<source srcset="/branding/images/david-busic-headshot_300.jpg">
-	<img src="/branding/images/david-busic-headshot.jpg">
+	<img src="/branding/images/david-busic-headshot_300.jpg">
 </picture>
 
 Dr. David A. Busic was elected general superintendent in the Church of the Nazarene at the 28th General Assembly held in Indianapolis, Indiana, USA, in June 2013. At the time of his election, he had been president of Nazarene Theological Seminary since 2011.
