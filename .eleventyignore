@@ -1,8 +1,8 @@
 CODE_OF_CONDUCT.md
 LICENSE
 README.md
-favicons/html_code.html
-favicons/README.md
+src/branding/favicons/html_code.html
+src/branding/favicons/README.md
 src/branding/LICENSE
 src/branding/README.md
 src/includes/LICENSE
